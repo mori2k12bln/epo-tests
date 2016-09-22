@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/**
+  * Custom CSS Styles for EPO
+  * Author: Marcus Morba (epo@morba.de)
+ */
+ 
+
+body, html {}
+body, html, user-account, work-manager, workflow, workspace {}
+
+.teampatent-container {}
+.teampatent-wrapper {}
+
+.generic-list-container .list-tray-panel, .generic-table__container .list-tray-panel {}
+
+.dossier-list-main-wrapper {
+  border-right: none;
+}
+/*
+dossier-list, dossier-preview, .dossier-preview-wrapper { display: block; }
+.container-nav-tabs-wrapper { overflow: inherit; }
+*/
+.panel >.list-group { padding-right: 20px; }
+.generic-list-container .list-group li { position: relative; }
+
+.generic-list-container .list-group li:nth-child(odd):active, .generic-table__container .list-group li:nth-child(odd):active
+.generic-list-container .list-group li:nth-child(odd):focus, .generic-table__container .list-group li:nth-child(odd):focus,
+.generic-list-container .list-group li:nth-child(odd):hover, .generic-table__container .list-group li:nth-child(odd):hover,
+.generic-list-container .list-group li:nth-child(even):hover, .generic-table__container .list-group li:nth-child(even):hover {
+    background: #eee;
+    background: #e4ecef;
+}
+.generic-list-container .list-group li.selected {
+    background: #d7efff;
+    background: #c3d1d8;
+    border: 1px solid #4A4A4A;
+    border-right: none;
+}
+.generic-list-container .list-group li.selected:after {
+    content: "";
+    width: 35px;
+    height: 106%;
+    background-color: #690039;
+    background: url(listitem-selected_arrow_default.svg) no-repeat;
+    background-size: contain;
+    /*
+    border-top: 64px solid transparent;
+    border-left: 36px solid #c3d1d8;
+    border-bottom: 64px solid transparent;
+    */
+    position: absolute;
+    right: -35px;
+    top: -3%;
+}
+.generic-list-container .list-group li.selected:hover:after {
+  background: url(listitem-selected_arrow_defaultHover.svg) no-repeat;
+  background-size: contain;
+  }
+
+
+
+.generic-list-container .list-group li.selected:focus, .generic-list-container .list-group li.selected:hover, .generic-list-container .list-group li:nth-child(odd):hover {
+    background: #caeaff;
+    background: #e4ecef;
+}
+.dossier-list-main-wrapper, .preview-dossier-main-wrapper {
+    flex: 0 0 50%;
+    position: relative;
+    /* margin-right: 20px; */
+    box-sizing: border-box;
+}
+.preview-dossier-main-wrapper { margin-right: 0; }
+.container-nav-tabs-wrapper .tab-content {}
+
+@media (min-width: 768px) {}
+@media (min-width: 1300px) {}

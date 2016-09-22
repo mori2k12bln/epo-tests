@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="19px" height="313px" viewBox="0 0 19 313" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>EPO-Elements</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Triangle-1-+-Path-2" sketch:type="MSLayerGroup">
+            <path d="M0,315 L6.82121026e-14,0 L18,157.5 L0,315 Z" id="Triangle-1" fill="#C3D1D8" sketch:type="MSShapeGroup"></path>
+            <path d="M0.630004883,0.875 L17.8897705,157.722656 L0.786254883,312.163086" id="Path-2" stroke="#4A4A4A" stroke-width="2" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
